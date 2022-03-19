@@ -1,9 +1,10 @@
 import './App.css';
+import { Posts } from './Components/Posts/Posts';
 
 function App() {
   return (
     <div>
-      <h1 className='text-center'>Hello React</h1>
+      <Posts></Posts>
     </div>
   );
 }
